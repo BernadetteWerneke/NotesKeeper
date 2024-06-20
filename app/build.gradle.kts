@@ -3,11 +3,11 @@
     alias(libs.plugins.jetbrains.kotlin.android)
 }*/
 plugins {
-    id("com.android.application")
-    id("org.jetbrains.kotlin.android")
+    id ("com.android.application")
+    id ("org.jetbrains.kotlin.android")
     id ("kotlin-kapt")
     id ("kotlin-parcelize")
-    id("com.google.devtools.ksp")
+    id ("com.google.devtools.ksp")
     id ("androidx.navigation.safeargs")
 }
 
